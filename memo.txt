@@ -1,0 +1,12 @@
+flask init-db
+
+$env:FLASK_APP = "flaskr"
+$env:FLASK_ENV = "development"
+flask run
+
+https://msiz07-flask-docs-ja.readthedocs.io/ja/latest/tutorial/index.html
+
+
+pip install -e .
+pytest
+python setup.py bdist_wheel
